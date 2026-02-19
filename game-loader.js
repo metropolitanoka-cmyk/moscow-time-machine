@@ -796,7 +796,7 @@ const allPhotos = [
   {
     "id": 100,
     "imageUrl": "photos/100.jpg",
-    "year": 1913,
+    "year": 1842,
     "coordinates": {"lat": 55.745992, "lng": 37.612013},       
     "location": "Кремль, старейшее фото Москвы.",
     "mode": "all"
@@ -856,6 +856,7 @@ console.log('✅ GameData загружен! Всего фото:', allPhotos.len
 console.log('90-е:', allPhotos.filter(p => p.mode === '90s').length, 'фото');
 console.log('СССР:', allPhotos.filter(p => p.mode === 'ussr').length, 'фото');
 console.log('Все годы:', allPhotos.filter(p => p.mode === 'all').length, 'фото');
+
 
 
 
